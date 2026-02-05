@@ -31,4 +31,16 @@ Password: rahul@2021
 ```bash
 npm install
 npm run dev
+
+## Screenshots
+
+### Home
+![Home](screenshots/home.png)
+
+### Products
+![Products](screenshots/products.png)
+
+### Cart
+![Cart](screenshots/cart.png)
+
 ```
