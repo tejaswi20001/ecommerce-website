@@ -101,6 +101,26 @@ const LoginForm = () => {
 
         {showSubmitError && <p className="error-message">*{errorMsg}</p>}
       </form>
+      <div className="demo-credentials-card">
+        <p className="demo-title">Demo Login</p>
+
+        <div className="demo-creds">
+          <div className="demo-row">
+            <span className="demo-label">Username</span>
+            <span className="demo-value">rahul</span>
+          </div>
+          <div className="demo-row">
+            <span className="demo-label">Password</span>
+            <span className="demo-value">rahul@2021</span>
+          </div>
+        </div>
+
+        <p className="demo-note">
+          Note: These are test credentials provided by the NxtWave API for demo
+          access. The UI, routing, protected routes, API integration, and cart
+          features were implemented by me.
+        </p>
+      </div>
     </div>
   );
 };

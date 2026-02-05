@@ -136,3 +136,78 @@
   line-height: 16px;
   color: #ff0b37;
 }
+.demo-credentials-card {
+  width: 100%;
+  margin-top: 16px;
+  padding: 14px;
+  margin-left: 20px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
+}
+
+.demo-title {
+  margin: 0 0 10px;
+  font-size: 16px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.demo-title-accent {
+  color: #2563eb; /* blue accent */
+}
+
+.demo-creds {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #ffffff;
+  border: 1px solid #edf2f7;
+}
+
+.demo-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.demo-label {
+  font-size: 15px;
+  color: #64748b;
+  font-weight: 700;
+}
+
+.demo-value {
+  font-size: 16px;
+  color: #0f172a;
+  font-weight: 800;
+}
+
+.demo-note {
+  margin: 10px 0 0;
+  font-size: 14px;
+  line-height: 1.45;
+  font-weight: 500;
+  color: #475569;
+}
+
+.demo-note-accent {
+  color: #0ea5e9; /* sky blue */
+  font-weight: 800;
+}
+
+.demo-note-brand {
+  color: #7c3aed; /* purple */
+  font-weight: 800;
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .demo-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+}
