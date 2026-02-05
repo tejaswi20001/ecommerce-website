@@ -1,14 +1,14 @@
 # E-Commerce Website (NxtTrendz Clone)
 
-A React e-commerce website built with routing, protected routes, product listing, product details, and cart features.
+A React e-commerce website built with routing, protected routes, product listing, product details, and cart features (NxtWave API).
 
 ## Features
 
-- Login (JWT auth using NxtWave API)
+- JWT Login (NxtWave API)
 - Protected routes (redirect to login if not authenticated)
-- Products listing page
+- Products listing with API integration
 - Product details page with similar products
-- Add to cart, increment/decrement quantity, remove item, remove all
+- Cart: add item, increment/decrement quantity, remove item, remove all
 - Cart summary (total amount)
 
 ## Tech Stack
@@ -24,7 +24,9 @@ A React e-commerce website built with routing, protected routes, product listing
 Username: rahul  
 Password: rahul@2021
 
-## How to Run Locally
+> Note: These are test credentials provided by the API for demo purposes.
+
+## Getting Started (Run Locally)
 
 ```bash
 npm install
