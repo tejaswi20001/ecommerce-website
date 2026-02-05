@@ -2,6 +2,15 @@
 
 A React e-commerce website built with routing, protected routes, product listing, product details, and cart features (NxtWave API).
 
+## Live Demo
+
+- App: https://tejaswi-ecommerce.vercel.app/login
+- Demo Credentials:
+  - Username: rahul
+  - Password: rahul@2021
+
+Note: These are test credentials provided by the API for demo purposes.
+
 ## Features
 
 - JWT Login (NxtWave API)
@@ -18,13 +27,6 @@ A React e-commerce website built with routing, protected routes, product listing
 - Context API
 - Vite
 - CSS
-
-## Demo Credentials (Provided by NxtWave API)
-
-Username: rahul  
-Password: rahul@2021
-
-> Note: These are test credentials provided by the API for demo purposes.
 
 ## Getting Started (Run Locally)
 
