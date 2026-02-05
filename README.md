@@ -9,7 +9,7 @@ A React e-commerce website built with routing, protected routes, product listing
   - Username: rahul
   - Password: rahul@2021
 
-Note: These are test credentials provided by the API for demo purposes.
+> Note: These are test credentials provided by the NxtWave API for demo purposes. The UI, routing, protected routes, API integration, and cart features were implemented by me.
 
 ## Features
 
@@ -33,16 +33,18 @@ Note: These are test credentials provided by the API for demo purposes.
 ```bash
 npm install
 npm run dev
+```
 
 ## Screenshots
 
 ### Home
+
 ![Home](screenshots/home.png)
 
 ### Products
+
 ![Products](screenshots/products.png)
 
 ### Cart
-![Cart](screenshots/cart.png)
 
-```
+![Cart](screenshots/cart.png)
